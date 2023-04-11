@@ -1,0 +1,47 @@
+{
+  "name": "clinic-nodejs",
+  "version": "1.0.0",
+  "description": "Quản lý phòng khám",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "node-sass -w src/resources/scss -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "nodejs-clinic"
+  ],
+  "author": "quangle",
+  "license": "ISC",
+  "bin": {
+    "execute": "./src/index.js"
+  },
+  "devDependencies": {
+    "exceljs": "^4.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "mongoose": "^7.0.3",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-slug-generator": "^1.0.4",
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "rand-token": "^1.0.1",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.30.0"
+  },
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.6.2"
+  }
+}

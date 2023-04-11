@@ -1,0 +1,9 @@
+{
+    "database": {
+        "host": "sql.freedb.tech",
+        "port": 3306,
+        "user": "freedb_quangle",
+        "password": "9p2@z!#Ea5a6BWN",
+        "database": "freedb_clinic-db"
+    }
+}
